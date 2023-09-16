@@ -31,7 +31,7 @@ export const Contact = () => {
 
       <div className="about-content">
           <h2 className="heading">Searching for experiences</h2>
-          <h3>Maybe in your enterprise? xD</h3>
+          <h3>Maybe in your company? xD</h3>
           <p>I'm available to chat at any time, you can call me on Linkedin or even send me an email, <span>eduardoo.js19@gmail.com</span>.</p>
       </div>
 

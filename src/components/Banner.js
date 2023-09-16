@@ -4,7 +4,7 @@ import headerImg from "../assets/img/625914-removebg-preview.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import document from '../assets/img/Eduardo_Varjao_Dias.pdf'
+import pdfFile from '../assets/img/Eduardo_Varjao_Dias.pdf'
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -59,7 +59,7 @@ export const Banner = () => {
                 <span className="tagline">Developer</span>
                 <h1>{`Hi! I'm Eduardo Dias`}</h1>
                   <p>I'm currently 20 years old and I'm studying Information Systems in college. I had my first contact with programming in mid-2017 and I've been carrying a lot of knowledge since then, especially in the Full Stack area.</p>
-                  <a href="#" className="btn" download={document}>Download CV</a>
+                  <a href={pdfFile} className="btn" download="Eduardo_Varjao_Dias.pdf">Download CV</a>
               </div>}
             </TrackVisibility>
           </Col>
